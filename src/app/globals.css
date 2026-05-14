@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f2f2f2;
+    color: rgb(0 0 0 / 80%); 
+    font-weight: 300; 
+    font-size: 1.2rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(0 0 0 / 90%);
+    font-weight: 400; 
+    letter-spacing: 0.1rem;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
